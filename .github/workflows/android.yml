@@ -1,0 +1,26 @@
+名称  :    Android CI
+
+在:
+ 推 :
+ 分行  :   [ "主要" ]
+ pull_request :
+分行:["主要"]
+
+工作:
+ 建造 :
+
+ 跑动  :   乌布图最新
+
+ 步骤 :
+       -    使用  :    行动/结账@v4
+       -    名称  :    设置 JDK 11
+ 使用  :   @v3/setup-java
+ 关于 :
+ Java 版本  :   '11'
+ 分布  :   'temurin'
+ 缓存  :   渐变
+
+       -    名称  :    授予 gradlew 执行权限
+ 跑  :   chmod +x gradlew
+       -    名称  :    使用 Gradle 构建
+ 跑  :   ./gradlew 构建
